@@ -1,0 +1,56 @@
+svg {
+  display: block;
+  margin: 0 auto;
+}
+
+span {
+  margin-right: 6px;
+}
+
+.board {
+  width: 700;
+  height: 161;
+  margin: 50px auto
+}
+
+.block_text {
+  width: 100%;
+  height: 50;
+  margin: 4% auto;
+  border-bottom: 2px solid rgb(195, 200, 201);
+}
+
+.block_tablet {
+  float: left;
+}
+
+.block_smartphone {
+  float: right;
+}
+
+.figure {
+  font-size: 11px;
+  margin-top: 0;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 10%;
+}
+
+.smartphone_position {
+  float: right;
+  margin-right: 0
+}
+
+.number {
+  color: grey;
+}
+
+.widget {
+  position: relative;
+  display: inline-block;
+  width: 24%;
+  height: 161;
+  margin: 0 4%;
+}
