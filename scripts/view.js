@@ -23,7 +23,7 @@ define( function (require) {
     
     var renderPie = function(data) {
       
-      var div = d3.select('.board').append('div').attr('class', 'widget').style('width', '24%').style('height', '161');
+      var div = d3.select('.board').append('div').attr('class', 'widget')
       var board = div.append('svg').attr('id', 'svg_board').attr('width', '111').attr('height', '111');
 
       var myScale = d3.scale.linear().domain([0, 100]).range([0, 2 * Math.PI]); 
